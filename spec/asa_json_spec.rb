@@ -20,20 +20,20 @@ RSpec.describe AsaJson do
 
   it 'write_jsonl' do
     AsaJson.write_jsonl("#{__dir__}/output.jsonl", @test)
-    result = AsaJson.read_jsonl("#{__dir__}/test.jsonl")
+    result = AsaJson.read_jsonl("#{__dir__}/output.jsonl")
 
     expect(result).to eq @test
   end
 
   it 'read_json' do
-    result = AsaJson.read_json("#{__dir__}/output.json")
+    result = AsaJson.read_json("#{__dir__}/test.json")
 
     expect(result).to eq @test
   end
 
   it 'write_json' do
     AsaJson.write_json("#{__dir__}/output.json", @test)
-    result = AsaJson.read_json("#{__dir__}/test.json")
+    result = AsaJson.read_json("#{__dir__}/output.json")
 
     expect(result).to eq @test
   end
