@@ -3,6 +3,7 @@
 require_relative 'asa_json/version'
 require 'json'
 
+# AsaJson
 module AsaJson
   class Error < StandardError; end
   # Your code goes here...

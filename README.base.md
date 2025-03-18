@@ -7,6 +7,8 @@
 
 # asa_json
 
+[![Gem Version](https://badge.fury.io/rb/asa_json.svg)](https://badge.fury.io/rb/asa_json)
+
 asa_json is a library for conveniently JSON.  
 It supports reading and writing json and jsonl files.
 

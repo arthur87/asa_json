@@ -2,7 +2,7 @@
 
 require 'asa_json'
 
-RSpec.describe AsaJson do
+RSpec.describe AsaJson do # rubocop:todo Metrics/BlockLength
   before do
     @test = [
       { 'id' => 1, 'name' => 'cerulean', 'year' => 2000, 'color' => '#98B2D1', 'pantone_value' => '15-4020' },
